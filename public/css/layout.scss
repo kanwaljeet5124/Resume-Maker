@@ -1,0 +1,9 @@
+$colors: (
+    primary: #3366ff,
+);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: map-get($colors, primary);
+    font-family: "Raleway Dots", cursive;
+}
